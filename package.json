@@ -1,0 +1,15 @@
+{
+  "name": "vue-cli-parser",
+  "version": "1.0.0",
+  "scripts": {
+    "lint-parser": "eslint -c .eslintrc-parser.js --ext .ts ./",
+    "lint-parserOptions-parser": "eslint -c .eslintrc-parserOptions-parser.js --ext .ts ./",
+    "lint-vue-plugin": "eslint -c .eslintrc-vue-plugin.js --ext .ts ./"
+  },
+  "devDependencies": {
+    "@vue/eslint-config-typescript": "^3.0.0-rc.3",
+    "eslint": "^5.1.0",
+    "eslint-plugin-vue": "^4.5.0",
+    "typescript": "^2.9.2"
+  }
+}
